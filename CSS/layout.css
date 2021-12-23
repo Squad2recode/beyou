@@ -78,7 +78,7 @@ nav {
 }
 
 .menu ul li a:hover {
-  background-color: #fff;
+  background-color: rgba(80, 79, 79, 0.315);
 }
 
 .menu ul ul {
