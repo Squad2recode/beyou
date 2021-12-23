@@ -1,0 +1,32 @@
+.menu ul li {
+    font-weight: bold;
+  }
+
+  .opcoes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+  
+  .opcoes img {
+    align-items: center;
+    margin: 20px;
+    border-radius: 10%;
+  }
+  
+  .opcoes a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 140px;
+  }
+  
+  .btn {
+    font-size: 20px;
+    line-height: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    transition: all 0.5s ease;
+  }
+  

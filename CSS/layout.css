@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Play", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url(/imagens/BGCOMEIA2.svg);
+}
+
+section {
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.13);
+  z-index: 2;
+}
+
+.logo {
+  max-width: 11%;
+  float: left;
+  padding-top: 1%;
+  padding-bottom: 1.1%;
+  margin-right: 2%;
+}
+
+nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-0 {
+  width: 100%;
+}
+
+.menu ul {
+  margin-left: 0;
+}
+
+.menu ul li {
+  display: inline;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu ul li a {
+  color: #000;
+  text-decoration: none;
+  font-style: bold;
+  display: inline-block;
+  transition: background 0.5s ease;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-style: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  background-color: rgba(172, 173, 171, 0.555);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.menu ul li a:hover {
+  background-color: #fff;
+}
+
+.menu ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.menu ul li:hover ul {
+  display: block;
+  text-align: center;
+}
+
+.menu ul ul li a:hover {
+  background-color: #ffdc97;
+}
+
+.menu ul ul {
+  width: 110%;
+  margin-left: -15% !important;
+}
+
+.menu ul ul li {
+  font-size: 12px;
+}
+
+.menu ul ul li a {
+  background-color: #fff;
+  display: block;
+}
+
+footer {
+  height: 85px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.247);
+  opacity: 0.7;
+}
+
+.fim {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.fim img {
+  width: 4%;
+  margin: 15px;
+}
