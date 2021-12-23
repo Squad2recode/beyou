@@ -57,6 +57,7 @@ nav {
   display: inline;
   position: relative;
   cursor: pointer;
+  color: #fff;
 }
 
 .menu ul li a {
@@ -72,7 +73,7 @@ nav {
   font-style: bold;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  background-color: rgba(172, 173, 171, 0.555);
+  background-color: rgba(0, 0, 0, 0.555);
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -93,6 +94,8 @@ nav {
 
 .menu ul ul li a:hover {
   background-color: #ffdc97;
+  color: #000;
+  font-weight: bold;
 }
 
 .menu ul ul {
@@ -105,7 +108,8 @@ nav {
 }
 
 .menu ul ul li a {
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: #fff;
   display: block;
 }
 
