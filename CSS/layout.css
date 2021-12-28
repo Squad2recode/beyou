@@ -32,11 +32,11 @@ header {
 }
 
 .logo {
-  max-width: 11%;
+  max-width: 12%;
   float: left;
   padding-top: 1%;
   padding-bottom: 1.1%;
-  margin-right: 2%;
+  margin-left: -7%;
 }
 
 nav {
@@ -46,11 +46,16 @@ nav {
 }
 
 .container-0 {
-  width: 100%;
+  width: 85%;
+}
+
+.menu {
+  margin-left: -6%;
 }
 
 .menu ul {
   margin-left: 0;
+  text-align: center;
 }
 
 .menu ul li {
@@ -58,6 +63,7 @@ nav {
   position: relative;
   cursor: pointer;
   color: #fff;
+  font-size: 15px;
 }
 
 .menu ul li a {
