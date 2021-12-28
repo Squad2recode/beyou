@@ -1,0 +1,21 @@
+
+
+.card {
+    margin-top: 25%;
+    margin-bottom:5%;
+}
+
+.table {
+    margin-top: 14%;
+    background-color: rgba(255, 255, 255, 0.466);
+    text-align: center;
+}
+
+td {
+    vertical-align: middle;
+}
+
+
+footer {
+    margin-top: 5%
+}
