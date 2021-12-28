@@ -63,7 +63,7 @@ nav {
   position: relative;
   cursor: pointer;
   color: #fff;
-  font-size: 15px;
+  font-size: 0.9em;
 }
 
 .menu ul li a {
@@ -110,7 +110,8 @@ nav {
 }
 
 .menu ul ul li {
-  font-size: 12px;
+  font-size: 0.7em;
+  vertical-align: middle;
 }
 
 .menu ul ul li a {
