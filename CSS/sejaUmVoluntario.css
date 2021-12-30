@@ -47,3 +47,15 @@ input[type=text], input[type=file], select, textarea {
             width:10vw;
           }
     }
+
+    @media screen and (min-width: 501px) and (max-width: 799px) {
+        #descricao {
+            margin-top: 25%;
+        }
+    }
+
+    @media screen and (min-width: 1000px) and (max-width: 1200px) {
+        #descricao {
+            margin-top: 15%;
+        }
+    }

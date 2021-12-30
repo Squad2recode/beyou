@@ -130,7 +130,7 @@ nav {
 
 footer {
   height: 85px;
-  width: 100vw;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.247);
   opacity: 0.7;
 }
@@ -264,9 +264,21 @@ footer {
   margin-top: 15%;
 }
 
+footer {
+  width: 100%;
 }
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+
+  header {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
 
   .banner {
     margin-top: 25%;
@@ -392,7 +404,22 @@ footer {
 }
 
 .fim img {
-  width: 5vw;
+  width: 6vw;
   margin-top: 5%;
 }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+    header {
+    width: 100%;
+  }
+
+  .menu-0 {
+    font-size: 13.5px;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
