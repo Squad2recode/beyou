@@ -37,3 +37,13 @@ input[type=text], input[type=file], select, textarea {
     width: 50%;
     background-color: #ffffff42;
     }
+
+    @media screen and (max-width: 500px) {
+        #descricao {
+            margin-top: 20vh;
+        }
+
+        .fim img {
+            width:10vw;
+          }
+    }

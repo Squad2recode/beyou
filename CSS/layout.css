@@ -130,7 +130,7 @@ nav {
 
 footer {
   height: 85px;
-  width: 100%;
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.247);
   opacity: 0.7;
 }

@@ -17,3 +17,18 @@ footer {
     margin-top: 1%
 }
 
+@media screen and (max-width: 500px) {
+
+    .table {
+      margin-top: 50%;
+      vertical-align: middle;
+    }
+
+    .table th {
+        vertical-align: middle;
+    }
+    
+    .fim img {
+      width:10vw;
+    }
+}

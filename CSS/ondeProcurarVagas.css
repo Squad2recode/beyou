@@ -19,3 +19,14 @@ a {
 .card-body {
     background-color: rgba(0, 0, 0, 0.247);
 }
+
+@media screen and (max-width: 500px) {
+    .card-group {
+        margin-top: 45%;
+    }
+
+    .fim img {
+        width:10vw;
+      }
+
+}

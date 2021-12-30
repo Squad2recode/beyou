@@ -30,3 +30,27 @@
     transition: all 0.5s ease;
   }
   
+  @media screen and (max-width: 500px) {
+    .opcoes {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 17vh;
+      display: inline-block;
+    }
+
+    .opcoes img {
+      margin-top: 5vh;
+      margin-left: auto;
+    } 
+
+    .opcoes button {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+    }
+
+    .fim img {
+      width:10vw;
+    }
+  }
